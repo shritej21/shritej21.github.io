@@ -129,6 +129,8 @@
       display: flex;
       gap: 2rem;
       list-style: none;
+      justify-content: center;
+      flex: 1;
     }
 
     .nav-links a {
@@ -1168,7 +1170,6 @@
 
   <!-- ── NAVBAR ── -->
   <nav>
-    <a href="#home" class="nav-logo">SV<span>.</span></a>
     <ul class="nav-links">
       <li><a href="#home">Home</a></li>
       <li><a href="#about">About</a></li>
@@ -1303,34 +1304,56 @@
         <h2 class="sec-title">What I <em>Work With</em></h2>
         <div class="sec-bar"></div>
       </div>
-
+ 
       <div class="skills-cat reveal">
-        <div class="skills-cat-title">Programming Languages</div>
+        <div class="skills-cat-title">Languages</div>
         <div class="skills-chips">
           <div class="chip"><i class="devicon-python-plain colored"></i> Python</div>
+          <div class="chip"><i class="fas fa-database" style="color:#6ee7b7"></i> SQL</div>
           <div class="chip"><i class="devicon-java-plain colored"></i> Java</div>
           <div class="chip"><i class="devicon-cplusplus-plain colored"></i> C++</div>
           <div class="chip"><i class="devicon-javascript-plain colored"></i> JavaScript</div>
-          <div class="chip"><i class="devicon-html5-plain colored"></i> HTML</div>
-          <div class="chip"><i class="devicon-css3-plain colored"></i> CSS</div>
-          <div class="chip"><i class="fas fa-database" style="color:#6ee7b7"></i> SQL</div>
         </div>
       </div>
-
+ 
       <div class="skills-cat reveal">
-        <div class="skills-cat-title">Frameworks & Libraries</div>
+        <div class="skills-cat-title">AI / ML</div>
         <div class="skills-chips">
-          <div class="chip"><i class="devicon-react-original colored"></i> React</div>
-          <div class="chip"><i class="devicon-nextjs-plain"></i> Next.js</div>
-          <div class="chip"><i class="devicon-fastapi-plain colored"></i> FastAPI</div>
+          <div class="chip"><i class="devicon-pytorch-original colored"></i> PyTorch</div>
+          <div class="chip"><i class="devicon-tensorflow-original colored"></i> TensorFlow</div>
+          <div class="chip"><i class="devicon-scikitlearn-plain colored"></i> scikit-learn</div>
+          <div class="chip"><i class="fas fa-brain" style="color:#a78bfa"></i> NLP</div>
+          <div class="chip"><i class="fas fa-robot" style="color:#3b82f6"></i> LLMs</div>
+          <div class="chip"><i class="fas fa-people-arrows" style="color:#a78bfa"></i> AI Agents</div>
+          <div class="chip"><i class="fas fa-layer-group" style="color:#6ee7b7"></i> Multimodal AI</div>
+          <div class="chip"><i class="fas fa-chart-line" style="color:#6ee7b7"></i> Model Evaluation</div>
+        </div>
+      </div>
+ 
+      <div class="skills-cat reveal">
+        <div class="skills-cat-title">Data & Analytics</div>
+        <div class="skills-chips">
           <div class="chip"><i class="devicon-pandas-plain colored"></i> Pandas</div>
           <div class="chip"><i class="devicon-numpy-plain colored"></i> NumPy</div>
-          <div class="chip"><i class="devicon-scikitlearn-plain colored"></i> scikit-learn</div>
-          <div class="chip"><i class="devicon-tensorflow-original colored"></i> TensorFlow</div>
-          <div class="chip"><i class="devicon-pytorch-original colored"></i> PyTorch</div>
+          <div class="chip"><i class="fas fa-sliders-h" style="color:#6ee7b7"></i> Feature Engineering</div>
+          <div class="chip"><i class="fas fa-search" style="color:#3b82f6"></i> Data Profiling</div>
+          <div class="chip"><i class="fas fa-square-root-alt" style="color:#a78bfa"></i> Statistical Analysis</div>
         </div>
       </div>
-
+ 
+      <div class="skills-cat reveal">
+        <div class="skills-cat-title">Frameworks</div>
+        <div class="skills-chips">
+          <div class="chip"><i class="devicon-fastapi-plain colored"></i> FastAPI</div>
+          <div class="chip"><i class="devicon-flask-original"></i> Flask</div>
+          <div class="chip"><i class="fas fa-fire" style="color:#e97627"></i> Streamlit</div>
+          <div class="chip"><i class="devicon-react-original colored"></i> React</div>
+          <div class="chip"><i class="devicon-nextjs-plain"></i> Next.js</div>
+          <div class="chip"><i class="devicon-tailwindcss-plain colored"></i> Tailwind CSS</div>
+          <div class="chip"><i class="fas fa-microphone-lines" style="color:#6ee7b7"></i> Pipecat</div>
+        </div>
+      </div>
+ 
       <div class="skills-cat reveal">
         <div class="skills-cat-title">Databases</div>
         <div class="skills-chips">
@@ -1339,25 +1362,28 @@
           <div class="chip"><i class="devicon-mongodb-plain colored"></i> MongoDB</div>
         </div>
       </div>
-
+ 
       <div class="skills-cat reveal">
         <div class="skills-cat-title">Cloud & DevOps</div>
         <div class="skills-chips">
           <div class="chip"><i class="devicon-amazonwebservices-plain-wordmark colored"></i> AWS (S3, EC2, EMR)</div>
           <div class="chip"><i class="devicon-docker-plain colored"></i> Docker</div>
-          <div class="chip"><i class="devicon-jenkins-line colored"></i> Jenkins</div>
+          <div class="chip"><i class="fas fa-infinity" style="color:#6ee7b7"></i> CI/CD Pipelines</div>
           <div class="chip"><i class="devicon-git-plain colored"></i> Git</div>
           <div class="chip"><i class="devicon-linux-plain"></i> Linux</div>
-          <div class="chip"><i class="fas fa-terminal" style="color:#6ee7b7"></i> Bash</div>
         </div>
       </div>
-
+ 
       <div class="skills-cat reveal">
-        <div class="skills-cat-title">Visualization & BI</div>
+        <div class="skills-cat-title">Tools & Systems</div>
         <div class="skills-chips">
-          <div class="chip"><i class="devicon-tableau-plain colored"></i> Tableau</div>
-          <div class="chip"><i class="fas fa-chart-bar" style="color:#f2c80f"></i> Power BI</div>
-          <div class="chip"><i class="fas fa-wave-square" style="color:#3b82f6"></i> Seaborn</div>
+          <div class="chip"><i class="fas fa-phone" style="color:#6ee7b7"></i> Twilio</div>
+          <div class="chip"><i class="fas fa-vial-circle-check" style="color:#a78bfa"></i> Cekura</div>
+          <div class="chip"><i class="fas fa-circle-nodes" style="color:#6ee7b7"></i> Ollama</div>
+          <div class="chip"><i class="fas fa-tower-broadcast" style="color:#3b82f6"></i> WebRTC</div>
+          <div class="chip"><i class="fas fa-stream" style="color:#3b82f6"></i> SSE Streaming</div>
+          <div class="chip"><i class="fas fa-plug" style="color:#a78bfa"></i> REST APIs</div>
+          <div class="chip"><i class="fas fa-filter" style="color:#6ee7b7"></i> ETL Pipelines</div>
         </div>
       </div>
     </div>
@@ -1372,7 +1398,7 @@
         <div class="sec-bar"></div>
       </div>
       <div class="timeline">
-
+ 
         <div class="tl-item reveal">
           <div class="tl-dot"></div>
           <div class="tl-card">
@@ -1390,7 +1416,7 @@
             </ul>
           </div>
         </div>
-
+ 
         <div class="tl-item reveal">
           <div class="tl-dot"></div>
           <div class="tl-card">
@@ -1398,22 +1424,19 @@
             <div class="tl-title">Software Engineer Intern – Mobile Systems</div>
             <div class="tl-company">Txon &nbsp;·&nbsp; Pune, India</div>
             <ul class="tl-points">
-              <li>Developed and deployed <strong>3 Android applications</strong> using Java and XML, delivering
-                production-ready mobile features</li>
-              <li>Optimized application performance by <strong>65%</strong> through API tuning, caching strategies, and
-                runtime profiling</li>
-              <li>Reduced debugging and issue resolution time by <strong>20%</strong> by implementing performance
-                monitoring and diagnostics</li>
-              <li>Automated build, test, and deployment workflows using CI/CD pipelines</li>
+              <li>Developed and deployed Android applications using a <strong>full-stack approach</strong>, integrating APIs and backend systems</li>
+              <li>Optimized application performance by <strong>65%</strong> through efficient data handling, caching strategies, and runtime profiling</li>
+              <li>Automated <strong>CI/CD pipelines</strong> for build, testing, and deployment, improving release efficiency and system reliability</li>
+              <li>Implemented logging and debugging tools to enhance <strong>system observability</strong> and performance monitoring</li>
             </ul>
           </div>
         </div>
-
+ 
       </div>
     </div>
   </section>
 
-  <!-- ── PROJECTS ── -->
+   <!-- ── PROJECTS ── -->
   <section id="projects">
     <div class="sec-inner">
       <div class="sec-head reveal">
@@ -1422,15 +1445,51 @@
         <div class="sec-bar"></div>
       </div>
       <div class="proj-grid">
-
+ 
         <div class="proj-card reveal">
+          <div class="proj-tag" style="color:var(--accent2);background:rgba(59,130,246,.1);border-color:rgba(59,130,246,.25)">🎙️ Voice AI · YC Hackathon 2026</div>
+          <div class="proj-title">FreightVoice – AI-Powered Logistics Voice Agent</div>
+          <ul class="proj-pts">
+            <li>Built an <strong>AI voice agent</strong> automating carrier check-ins, ETA tracking, and dock assignments across <strong>15+ logistics scenarios</strong></li>
+            <li>Integrated <strong>NVIDIA Nemotron 120B, Twilio, and Pipecat</strong> for sub-second real-time voice interactions</li>
+            <li>Built <strong>Cekura-powered evaluation pipelines</strong>, lifting simulated call pass rates from <strong>71% to 94%</strong></li>
+            <li>Deployed AWS backend services with tool-calling workflows and real-time shipment risk scoring</li>
+          </ul>
+          <div class="tech-row">
+            <span class="t-tag">NVIDIA Nemotron</span><span class="t-tag">Twilio</span>
+            <span class="t-tag">Pipecat</span><span class="t-tag">Cekura</span><span class="t-tag">AWS</span><span class="t-tag">Voice AI</span>
+          </div>
+          <div class="proj-footer">
+            <a href="https://github.com/shritej21/FreightVoice" class="proj-btn" target="_blank" rel="noopener noreferrer"><i
+                class="fab fa-github" aria-hidden="true"></i> GitHub</a>
+          </div>
+        </div>
+ 
+        <div class="proj-card reveal reveal-delay-1">
+          <div class="proj-tag" style="color:var(--accent);background:rgba(110,231,183,.1);border-color:rgba(110,231,183,.25)">👁️ Multimodal AI · Privacy</div>
+          <div class="proj-title">OpusAI – Privacy-First Retinal Fundus Analysis System</div>
+          <ul class="proj-pts">
+            <li>Built a <strong>real-time multi-model pipeline</strong> for retinal fundus analysis, addressing privacy, latency, and black-box AI challenges</li>
+            <li>Designed a <strong>6-stage workflow</strong> integrating Gemma 3, FunctionGemma, PaliGemma, and MedGemma for clinical reasoning</li>
+            <li>Developed a <strong>FastAPI backend with SSE streaming</strong>, improving observability and explainability of model outputs</li>
+            <li>Implemented <strong>local-first deployment (Ollama)</strong> with React + TypeScript UI for privacy-compliant, real-time visualization</li>
+          </ul>
+          <div class="tech-row">
+            <span class="t-tag">FastAPI</span><span class="t-tag">Ollama</span>
+            <span class="t-tag">React</span><span class="t-tag">TypeScript</span><span class="t-tag">SSE</span><span class="t-tag">Multimodal AI</span>
+          </div>
+          <div class="proj-footer">
+            <a href="https://github.com/shritej21/OpusAI" class="proj-btn" target="_blank" rel="noopener noreferrer"><i
+                class="fab fa-github" aria-hidden="true"></i> GitHub</a>
+          </div>
+        </div>
+ 
+        <div class="proj-card reveal reveal-delay-1">
           <div class="proj-tag">🏥 Healthcare · AI</div>
           <div class="proj-title">PromptRx – AI-Powered Discharge Instruction Simplifier</div>
           <ul class="proj-pts">
-            <li>Built an AI-driven healthcare app simplifying discharge instructions into <strong>patient-friendly
-                summaries</strong> using NLP</li>
-            <li>Flask backend API processing PDF, TXT, and CSV documents with structured text extraction and
-              categorization</li>
+            <li>Built an AI-driven healthcare app simplifying discharge instructions into <strong>patient-friendly summaries</strong> using NLP</li>
+            <li>Flask backend API processing PDF, TXT, and CSV documents with structured text extraction and categorization</li>
             <li>Streamlit frontend supporting real-time uploads and PDF generation</li>
             <li>Organized instructions into clinically relevant categories, improving patient comprehension</li>
           </ul>
@@ -1439,12 +1498,12 @@
             <span class="t-tag">Streamlit</span><span class="t-tag">NLP</span><span class="t-tag">PDF</span>
           </div>
           <div class="proj-footer">
-            <a href="https://github.com/shritej21" class="proj-btn" target="_blank" rel="noopener noreferrer"><i
+            <a href="https://github.com/shritej21/PromptRx" class="proj-btn" target="_blank" rel="noopener noreferrer"><i
                 class="fab fa-github" aria-hidden="true"></i> GitHub</a>
           </div>
         </div>
-
-        <div class="proj-card reveal reveal-delay-1">
+ 
+        <div class="proj-card reveal reveal-delay-2">
           <div class="proj-tag"
             style="color:var(--accent3);background:rgba(167,139,250,.1);border-color:rgba(167,139,250,.25)">💰 FinTech ·
             WildHacks 2025</div>
@@ -1461,33 +1520,11 @@
             <span class="t-tag">Pandas</span><span class="t-tag">ML</span><span class="t-tag">Auth.js</span>
           </div>
           <div class="proj-footer">
-            <a href="https://github.com/shritej21" class="proj-btn" target="_blank" rel="noopener noreferrer"><i
+            <a href="https://github.com/shritej21/Wildhacks-2025" class="proj-btn" target="_blank" rel="noopener noreferrer"><i
                 class="fab fa-github" aria-hidden="true"></i> GitHub</a>
           </div>
         </div>
-
-        <div class="proj-card reveal reveal-delay-2">
-          <div class="proj-tag"
-            style="color:var(--accent);background:rgba(110,231,183,.1);border-color:rgba(110,231,183,.25)">🤖 CV · NLP
-          </div>
-          <div class="proj-title">ConvoLogix – Meeting Minutes & Face Attendance System</div>
-          <ul class="proj-pts">
-            <li>Automated meeting summary generation using NLP-based models and keyword extraction techniques</li>
-            <li>CNN + LBPH hybrid models achieving <strong>98% face recognition accuracy</strong> for attendance
-              tracking</li>
-            <li>ETL-style pipeline with Tkinter GUI and email automation for report distribution</li>
-            <li>Improved organizational efficiency by <strong>80%</strong> through automated summarization</li>
-          </ul>
-          <div class="tech-row">
-            <span class="t-tag">Python</span><span class="t-tag">CNN</span>
-            <span class="t-tag">OpenCV</span><span class="t-tag">NLP</span><span class="t-tag">Tkinter</span>
-          </div>
-          <div class="proj-footer">
-            <a href="https://github.com/shritej21" class="proj-btn" target="_blank" rel="noopener noreferrer"><i
-                class="fab fa-github" aria-hidden="true"></i> GitHub</a>
-          </div>
-        </div>
-
+ 
       </div>
     </div>
   </section>
@@ -1530,6 +1567,13 @@
       </div>
       <div class="ach-grid" style="margin-top:2rem">
         <div class="ach-card reveal">
+          <div class="ach-ico">🎙️</div>
+          <div>
+            <div class="ach-title">YC Voice Agents Hackathon 2026</div>
+            <div class="ach-desc">Attended the <strong>Voice Agents Hackathon</strong> hosted by <strong>Y Combinator, Cekura &amp; Daily</strong> (in partnership with NVIDIA &amp; AWS) and built <strong>FreightVoice</strong>, a production-grade logistics voice agent using NVIDIA Nemotron, Twilio, and Pipecat.</div>
+          </div>
+        </div>
+        <div class="ach-card reveal reveal-delay-1">
           <div class="ach-ico">🏆</div>
           <div>
             <div class="ach-title">WildHacks 2025 – MLH Hackathon</div>
@@ -1537,7 +1581,7 @@
               Northwestern University's WildHacks 2025 (Major League Hacking event).</div>
           </div>
         </div>
-        <div class="ach-card reveal reveal-delay-1">
+        <div class="ach-card reveal reveal-delay-2">
           <div class="ach-ico">🔬</div>
           <div>
             <div class="ach-title">IIT Research Assistant</div>
@@ -1579,7 +1623,7 @@
 
   <!-- ── FOOTER ── -->
   <footer>
-    <div class="footer-left">© 2025 <strong>Shritej Vijay Vasal</strong> · Built with HTML, CSS & JS · Chicago, IL</div>
+    <div class="footer-left">© 2026 <strong>Shritej Vijay Vasal</strong> · Built with HTML, CSS & JS · Chicago, IL</div>
     <div class="footer-right">
       <a href="https://github.com/shritej21" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile"><i
           class="fab fa-github" aria-hidden="true"></i></a>
